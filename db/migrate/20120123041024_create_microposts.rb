@@ -1,6 +1,6 @@
-class CreateMicroosts < ActiveRecord::Migration
+class CreateMicroposts < ActiveRecord::Migration
   def self.up
-    create_table :microosts do |t|
+    create_table :microposts do |t|
       t.string :content
       t.integer :user_id
 
@@ -9,6 +9,6 @@ class CreateMicroosts < ActiveRecord::Migration
   end
 
   def self.down
-    drop_table :microosts
+    drop_table :microposts
   end
 end
