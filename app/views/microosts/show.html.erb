@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Content:</b>
+  <%= @microost.content %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @microost.user_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_microost_path(@microost) %> |
+<%= link_to 'Back', microosts_path %>
